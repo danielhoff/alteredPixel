@@ -1,0 +1,163 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Home Page
+:: About Altered Pixel
+:: Mobile Styles
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+body {
+	background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6,li {font-family: "proxima-nova-alt-ext-cond";}
+
+p, #search-box{ font-family: "ratio",sans-serif;}
+
+#header {
+	padding-top: 3%%;
+}
+
+#header img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	display: block;
+   	text-align: center;
+	font-size: 2em;
+	padding-top: 10%;
+}
+
+hr {
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+footer {
+	background-color: #2b2a29;
+}
+
+#footerFont  {
+	color: white;
+	text-align: center;
+}
+
+
+
+footer #footerLogo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
+.twitter-timeline {
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+
+
+
+/* -----------------------------------------
+  Home Page
+----------------------------------------- */
+
+#welcomeVideo {
+	padding-top: 5%;
+}
+
+/* -----------------------------------------
+   About Altered Pixel
+----------------------------------------- */
+
+#aboutTeamMembers img {
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#testimonials p {
+	font-size: 3em;
+	font-family: "proxima-nova-alt-ext-cond";
+  background: -webkit-linear-gradient(#223f61, #91d9ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* -----------------------------------------
+   Mobile/Tablet Styles 
+----------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+	nav li {
+		text-align: center;
+		display: block;
+	}
+
+	#footerFont {
+		text-align: center;
+	}
+
+	.twitter-timeline {
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+}
+
+/* Used to alter styles for screens at least 1280px wide. */
+@media only screen and (min-width: 1280px) {
+
+	.row {
+		width: 95%; 
+		max-width: 100%;
+		margin: auto;
+	}
+}
+
+/* Used to alter styles for screens at least 1440px wide. */
+@media only screen and (min-width: 1440px) {
+	.row {
+		width: 85%; 
+		max-width: 100%;
+		margin: auto;
+	}
+
+}
+
+/* Used to alter styles for screens at least 1600px wide. */
+@media only screen and (min-width: 1600px) {
+	.row {
+		width: 60%; 
+		max-width: 100%;
+		margin: auto;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
